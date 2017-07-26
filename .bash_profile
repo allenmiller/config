@@ -40,9 +40,9 @@ alias "clean=rm -f *~ \#*# \.*~"
 alias emacs="/usr/local/Cellar/emacs/25.1/Emacs.app/Contents/MacOS/Emacs -nw"
 alias emacsw="/usr/local/Cellar/emacs/25.1/Emacs.app/Contents/MacOS/Emacs -bg black -fg wheat -fh"
 
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
-fi
+#if [ -f $(brew --prefix)/etc/bash_completion ]; then
+#  . $(brew --prefix)/etc/bash_completion
+#fi
 
 GIT_COMPLETION=${HOME}/git/src/github.com/git/git/contrib/completion/git-completion.bash
 if [ -f ${GIT_COMPLETION} ]; then
