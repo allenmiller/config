@@ -53,4 +53,11 @@
 # Additional overlays and parameters are documented /boot/overlays/README
 
 # Enable audio (loads snd_bcm2835)
-dtparam=audio=on
+dtparam=audio=off
+
+# enable uart and disable bluetooth
+# https://www.maxbotix.com/Raspberry-Pi-with-Ultrasonic-Sensors-144
+
+enable_uart=1
+dtoverlay=pi3-disable-bt
+dtoverlay=pi3-miniuart-bt
