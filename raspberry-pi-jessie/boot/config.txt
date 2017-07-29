@@ -57,6 +57,7 @@ dtparam=audio=off
 
 # enable uart and disable bluetooth
 # https://www.maxbotix.com/Raspberry-Pi-with-Ultrasonic-Sensors-144
+# https://www.maxbotix.com/articles/034.htm
 
 enable_uart=1
 dtoverlay=pi3-disable-bt
